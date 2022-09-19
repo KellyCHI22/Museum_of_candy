@@ -1,0 +1,129 @@
+body {
+    background-color: #0a113e;
+    font-family: 'DotGothic16', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    margin: 0px 5px 0px 10px;
+    padding: 4px 6px;
+    background-color: none;
+    transition: border 1.5s ease-in, color 1s;
+}
+
+.navbar-brand:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #fdff33;
+    transform: translateY(-0.1em) translateX(0.1em);
+    border: 1px solid #f6ff28;
+    color: #f6ff28;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #8193ff;
+    padding: 4px;
+    transition: border 1.5s ease-in, color 1s;
+}
+
+.nav-link:hover {
+    border: 1px solid #f6ff28;
+    color: #f6ff28;
+    transform: translateY(-0.1em) translateX(0.1em);
+}
+
+#headingGroup h1 {
+    color: #8193ff;
+    font-weight: 100;
+    font-size: 3rem;
+    opacity: 0.4;
+}
+
+#headingGroup h1:hover {
+    color: #f6ff28;
+    transform: translateY(-0.1em) translateX(0.1em);
+}
+
+#headingGroup span {
+    color: #f6ff28;
+    font-weight: 100;
+    opacity: 1;
+}
+
+h2 {
+    color: #f6ff28;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
+p {
+    color: #8193ff;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 100;
+    font-size: 0.5em;
+    opacity: 0.8;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.content:last-child {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 991.98px) {
+
+    #headingGroup h1 {
+        font-size: 2.5rem;
+    }
+
+    .navbar-brand {
+        color: #0a113e;
+        transition: border 1.5s ease-in, color 1s;
+    }
+
+    .nav-link {
+        transition: border 1.5s ease-in, color 1s;
+    }
+
+    .navbar-brand:hover {
+        box-shadow: none;
+        border: 1px solid #0a113e;
+        color: #0a113e;
+    }
+
+    .nav-link:hover {
+        border: 1px solid #8193ff;
+        color: #8193ff;
+    }
+
+
+}
+
+@media (max-width: 767.98px) {
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: 100;
+        color: #0a113e;
+        margin: 0px 5px 0px 10px;
+        padding: 4px 6px;
+        background-color: none;
+        transition: border 1.5s ease-in, color 1s;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+        font-weight: 100;
+        color: #8193ff;
+        padding: 4px 5px;
+        margin: 0px 10px;
+        transition: border 1.5s ease-in, color 1s;
+    }
+}

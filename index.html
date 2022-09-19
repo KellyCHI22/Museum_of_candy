@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="app.css">
+
+  <title>Museum of Candy</title>
+</head>
+
+<body>
+  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top">
+    <!-- <div class="container-fluid"> -->
+    <a class="navbar-brand py-0" href="#">糖果博物館</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#">HOME <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+            fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
+            <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z" />
+            <path
+              d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+          </svg></a>
+        <a class="nav-link" href="#">ABOUT <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+            fill="currentColor" class="bi bi-patch-question" viewBox="0 0 16 16">
+            <path
+              d="M8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745z" />
+            <path
+              d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
+            <path d="M7.001 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0z" />
+          </svg></a>
+        <a class="nav-link" href="#">TICKETS <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+            fill="currentColor" class="bi bi-ticket-perforated" viewBox="0 0 16 16">
+            <path
+              d="M4 4.85v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Zm-7 1.8v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Zm-7 1.8v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Zm-7 1.8v.9h1v-.9H4Zm7 0v.9h1v-.9h-1Z" />
+            <path
+              d="M1.5 3A1.5 1.5 0 0 0 0 4.5V6a.5.5 0 0 0 .5.5 1.5 1.5 0 1 1 0 3 .5.5 0 0 0-.5.5v1.5A1.5 1.5 0 0 0 1.5 13h13a1.5 1.5 0 0 0 1.5-1.5V10a.5.5 0 0 0-.5-.5 1.5 1.5 0 0 1 0-3A.5.5 0 0 0 16 6V4.5A1.5 1.5 0 0 0 14.5 3h-13ZM1 4.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v1.05a2.5 2.5 0 0 0 0 4.9v1.05a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-1.05a2.5 2.5 0 0 0 0-4.9V4.5Z" />
+          </svg></a>
+      </div>
+    </div>
+    <!-- </div> -->
+  </nav>
+
+  <section class="container-fluid px-0">
+    <div class="row align-items-center content">
+      <div class="col-lg-6">
+        <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="imgs/hand2.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- <section class="container-fluid px-0">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div id='titles' class="'text-white text-center d-none d-lg-block">
+          <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+            <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+              <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+                <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+                  <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+                    <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img class="image-fluid" src="imgs/hand2.png" alt="">
+      </div>
+  </section> -->
+
+  <section class="container-fluid px-0">
+    <div class="row align-items-center text-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <img src="imgs/milk.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 mt-5 mt-md-0 mb-5 mb-md-0">
+            <h2>MUSEUM OF CANDY</h2>
+            <img src="imgs/lolli_icon.png" alt="" class='d-none d-lg-inline'>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia quae libero itaque
+              quidem nesciunt architecto dignissimos illo modi consequuntur, nihil possimus deleniti natus eligendi
+              voluptatum eos error! Similique, ratione!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center text-center content">
+      <div class="col-md-6 order-2 order-md-2">
+        <img src="imgs/gumball.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 order-1 order-md-1">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 mb-5 mb-md-0">
+            <h2>MUSEUM OF CANDY</h2>
+            <img src="imgs/lolli_icon.png" alt="" class='d-none d-lg-inline'>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, praesentium eum eveniet,
+              corporis
+              nostrum quae ducimus iusto rem minus eius repellendus perspiciatis hic temporibus, assumenda expedita eos
+              consequuntur impedit sunt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center text-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <img src="imgs/sprinkles.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 mb-5 mb-md-0">
+            <h2>MUSEUM OF CANDY</h2>
+            <img src="imgs/lolli_icon.png" alt="" class='d-none d-lg-inline'>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, praesentium eum eveniet,
+              corporis
+              nostrum quae ducimus iusto rem minus eius repellendus perspiciatis hic temporibus, assumenda expedita eos
+              consequuntur impedit sunt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
